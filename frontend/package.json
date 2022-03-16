@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:watch": "vite build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/tailwindcss": "^3.0.9",
+    "vite": "^2.8.6"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
