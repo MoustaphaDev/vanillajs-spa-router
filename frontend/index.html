@@ -6,9 +6,12 @@
     <link rel="stylesheet" href="/static/css/index.css" />
     <title>Single Page App</title>
   </head>
-  <body class="text-[18px] mb-52">
+  <body class="text-[18px] mb-52 overflow-x-hidden">
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
     <div id="nav"></div>
-    <div id="app" class="m-8 leading-normal font-medium"></div>
+    <div id="app" class="overflow-x-hidden max-w-[100vw]"></div>
     <script type="module" src="/static/js/index.js"></script>
+    <script src="/static/js/utils/cursor.js"></script>
   </body>
 </html>
